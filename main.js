@@ -1,6 +1,6 @@
 const productsContainer = document.querySelector(".products-container");
-
-
+const loadMoreBtn = document.querySelector(".load-more-btn");
+let currentStep = 0;
 
 async function fetchListOfProducts() {
 
@@ -57,3 +57,8 @@ function displayProducts(productList) {
 
 
 fetchListOfProducts();
+
+loadMoreBtn.addEventListener("click", () => {
+
+
+})
