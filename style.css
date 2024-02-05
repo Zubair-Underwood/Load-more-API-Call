@@ -72,3 +72,8 @@ body {
     border-radius: 8px;
     margin-top: 20px;
 }
+
+.load-more-btn:disabled{
+
+    cursor: not-allowed;
+}
