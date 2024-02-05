@@ -73,7 +73,7 @@ body {
     margin-top: 20px;
 }
 
-.load-more-btn:disabled{
+.load-more-btn:disabled {
 
     cursor: not-allowed;
 }
